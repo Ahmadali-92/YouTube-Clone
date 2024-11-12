@@ -1,0 +1,51 @@
+.videoSection {
+  /* border: 2px solid red; */
+  width: 28%;
+  margin-top: 35px;
+}
+.videoImage > img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.videoTime {
+  position: absolute;
+  /* float: ; */
+  margin-top: -10px;
+}
+.videoContent {
+  display: flex;
+  margin-top: 5px;
+}
+.videoprofile > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.videoDetails {
+  margin-left: 10px;
+}
+.videoHeading {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+.videoPara {
+  margin: 0;
+  margin-top: 5px;
+  font-size: 14px;
+  opacity: 0.7;
+  font-weight: 400;
+}
+.videoOption > span {
+  font-size: 14px;
+  opacity: 0.7;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 600px) {
+  .videoSection {
+    width: 85%;
+  }
+}
